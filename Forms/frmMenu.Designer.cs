@@ -1,7 +1,7 @@
 ﻿
 namespace ProyectoSTAvanzado
 {
-    partial class Form1
+    partial class frmMenu
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -41,7 +41,7 @@ namespace ProyectoSTAvanzado
             this.label1.TabIndex = 0;
             this.label1.Text = "Hola";
             // 
-            // Form1
+            // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -49,8 +49,8 @@ namespace ProyectoSTAvanzado
             this.ClientSize = new System.Drawing.Size(946, 499);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
-            this.Name = "Form1";
-            this.Text = "Inicio";
+            this.Name = "frmMenu";
+            this.Text = "Menu";
             this.ResumeLayout(false);
             this.PerformLayout();
 
